@@ -1,0 +1,13 @@
+/**
+ * G2 Nano pinout explorer — static site on Workers Static Assets.
+ * https://developers.cloudflare.com/workers/static-assets/
+ */
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "g2-nano-pinout-react",
+  "compatibility_date": "2026-10-10",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
